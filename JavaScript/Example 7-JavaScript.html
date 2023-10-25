@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Variables</h1>
+
+<p> This example indicates whether the triangle is an equilateral triangle or a right triangle or none.</p>
+
+<p id="demo"></p>
+
+
+<script>
+
+const number_1 = prompt("Enter a number for side 1: ");
+const number_2 = prompt("Enter a number for side 2: ");
+const number_3 = prompt("Enter a number for side 3: ");
+
+function triangel_type(side_1, side_2, side_3) {
+	
+	let square_1= side_1**2;
+	let square_2= side_2**2;
+	let square_3= side_3**2;
+	
+	if (side_1 == side_2 && side_2== side_3) {
+		type= "an equilateral triangle";
+	}
+	else if (square_1+square_2== square_3 || square_2+square_3== square_1 ||square_1+square_3== square_2) {
+		type ="a right triangle.";
+	}	
+	else {
+		type= "none.";
+	}
+	
+	return type;
+}
+
+
+document.getElementById("demo").innerHTML = "The triangle is " + triangel_type(number_1, number_2, number_3);
+
+</script>
+
+</body>
+</html>

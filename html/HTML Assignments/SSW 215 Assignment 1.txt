@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<HTML>
+
+/* Anthony Rizzuto
+September 12th, 2022
+Software Engineering */
+
+<HEAD> 
+
+<TITLE> STARBUCKS COFFEE, NEW YORK </TITLE>
+
+</HEAD>
+
+<BODY>
+
+<H1> Welcome to Starbucks Coffee, New York! </H1>
+
+<P> Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It is the world's largest coffeehouse chain.
+
+As of November 2021, the company had 33,833 stores in 80 countries, 15,444 of which were located in the United States. Out of Starbucks' U.S.-based stores, over 8,900 are company-operated, while the remainder are licensed.
+
+The rise of the second wave of coffee culture is generally attributed to Starbucks, which introduced a wider variety of coffee experiences. Starbucks serves hot and cold drinks, whole-bean coffee, micro-ground instant coffee, espresso, caffe latte, full and loose-leaf teas, juices, Frappuccino beverages, pastries, and snacks. Some offerings are seasonal, or specific to the locality of the store. 
+
+</P>
+
+<H3> Our main menu categories are: </H3>
+
+<UL> 
+
+<LI> Drinks </LI>
+<LI> Food </LI>
+<LI> At Home Coffee </LI>
+
+</UL>
+
+<H3> Our customers' top three favorite Hot Coffees are: </H3>
+
+<OL>
+
+<LI> Caffe Americano </LI>
+<LI> Caffe Misto </LI> 
+<LI> Cappuccino </LI>
+
+</OL>
+
+<H3> Why not give our delicious food menu a try also? </H3>
+
+<DL>
+
+<DT> Crispy Grilled Cheese on Sourdough </DT>
+
+<DD> A blend of white Cheddar and mozzarella cheeses on sourdough bread, topped with a Parmesan butter spread. - VEGETARIAN - HIGH-PROTEIN </DD>
+
+<DT> Tomato & Mozzarella on Focaccia </DT>
+
+<DD> Roasted tomatoes, mozzarella, spinach and basil pesto layered on toasted focaccia bread.
+- VEGETARIAN
+- HIGH-PROTEIN </DD>
+
+<DT> Turkey, Provolone & Pesto on Ciabatta </DT>
+
+<DD> Thick-sliced turkey breast, melted provolone cheese, dry-roasted red peppers and basil pesto on a ciabatta roll.
+
+-HIGH-PROTEIN </DD>
+
+</DL>
+
+<TABLE BORDER width = "750">
+
+<CAPTION> <H4> Food Price List </H4> </CAPTION>
+
+<TR>
+
+<th> Item No. </th>
+
+<th> Food </th>
+
+<th> Price </th>
+
+</TR>
+
+<TR>
+
+<td> 1 </td>
+
+<td> Crispy Grilled Cheese on Sourdough </td> 
+
+<td> $4.99 </td>
+
+</TR>
+
+<TR>
+
+<td> 2 </td>
+
+<td> Tomato & Mozzarella on Focaccia </td>
+
+<td> $6.99 </td>
+
+</TR> 
+
+<TR>
+
+<td> 3 </td>
+
+<td> Turkey, Provolone & Pesto on Ciabatta </td>
+
+<td> $7.99 </td>
+
+</TR>
+
+</TABLE>
+
+</BODY>
+
+</HTML>
+

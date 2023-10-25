@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<TITLE> TRIANGLES! </TITLE>
+</HEAD>
+
+<BODY>
+
+<H1> TEST </H1>
+
+<p id = "demo"> </p>
+
+<SCRIPT>
+
+const s1 = prompt ("Enter side 1:");
+const s2 = prompt ("Enter side 2:");
+const s3 = prompt ("Enter side 3:");
+
+function triangle_type(s1, s2, s3){
+	if (s1 == s2 && s2 == s3){ 
+	type = "Equilateral"; }
+
+document.getElementById("demo").innerHTML = triangle_type (3, 3, 3);
+
+</SCRIPT>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Styling webpage using CSS-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Starbucks, Los Angeles</title>
+</head>
+
+<body>
+<h1 id="uniquehd">Welcome to Starbucks, Los Angeles</h1>
+  <p>Starbucks Corporation is an American multinational chain of coffeehouses
+  and roastery reserves headquartered in Seattle, Washington. As the world's largest
+  coffeehouse chain, Starbucks is seen to be the main representation of the United States'second wave of coffee culture. As of early 2020, the company operates over 30,000 locations worldwide in more than 70 countries. Starbucks locations serve hot and cold drinks,whole-bean coffee, microground instant coffee known as VIA, espresso, caffe latte, full- and loose-leaf teas including Teavana tea products, Evolution Fresh juices, Frappuccino beverages, La Boulange pastries, and snacks including items such as chips and crackers; some offerings (including their annual fall launch of the Pumpkin Spice Latte) are seasonal or specific to the locality of the store.</p>
+  <h3 >Our main menu categories are: </h3>
+
+     <!--use JavaScript array to list the menu in this category (i.e., replace unordered list)-->
+
+    <p id = "coffee"></p>
+    <p id = "food"></p>
+    <p id = "athome"></p>
+      
+  <h3>Our customers’ top three favorites Hot Coffees are: </h3> 
+
+     <!--use JavaScript array to list the menu in this category (i.e., replace unordered list)-->
+
+     <p id = "caffe"></p>
+     <p id = "cappuccino"></p>
+     <p id = "espresso"></p>
+
+  <h3>Why not give our delicious food menu a try also?</h3>
+
+     <!--use JavaScript array to list the menu in this category (i.e., replace unordered list)-->
+
+     <p id = "ham"></p>
+     <p id = "cheese"></p>
+     <p id = "chicken"></p>
+
+
+  <h4 id=priceheader>Food Price List</h4>
+  <table class= "center">
+    <tr>
+      <th>Item Number</th>
+      <th>Food</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ham and Swiss Panini</td>
+      <td>$9</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cripsy Grilled Cheese Sandwhich</td>
+      <td>$15</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Chicken Caprese Panini</td>
+      <td>$12</td>
+    </tr>
+  </table>
+
+  <script> 
+  //main menu categories:
+    const mainMenu = ["Coffee", "Food", "At Home Coffee"];
+    document.getElementById("coffee").innerHTML = "&#8226 " + mainMenu[0];
+    document.getElementById("food").innerHTML = "&#8226 " + mainMenu[1];
+    document.getElementById("athome").innerHTML = "&#8226 " + mainMenu[2];
+
+  //top 3 favorites:
+  const favorites = ["Caffe Americano", "Cappuccino", "Espresso"];
+    document.getElementById("caffe").innerHTML = "&#8226 " + favorites[0];
+    document.getElementById("cappuccino").innerHTML = "&#8226 " + favorites[1];
+    document.getElementById("espresso").innerHTML = "&#8226 " + favorites[2];
+
+  //food:
+  const food = ["Ham and Swiss Panini", "Cripsy Grilled Cheese Sandwich", "Chicken Caprese Panini"];
+    document.getElementById("ham").innerHTML = "&#8226 " + food[0];
+    document.getElementById("cheese").innerHTML = "&#8226 " + food[1];
+    document.getElementById("chicken").innerHTML = "&#8226 " + food[2];
+  </script>
+
+</body>
+</html>

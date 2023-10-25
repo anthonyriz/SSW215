@@ -1,0 +1,30 @@
+body {background-color: linen; 
+}
+
+h1 {color: rgb(6, 97, 4);       
+    margin-left: 40px; 
+    text-align: center
+}
+
+p {text-align: justify;}       
+
+.firstH3 {color: #066104;}        
+
+.secondH3 {color: hsl(119, 92%, 20%);} 
+
+.thirdH3 {color: green;}    
+
+body > ol > li:nth-child(2) {text-decoration: line-through;} 
+
+.soon {color: red;}         
+
+
+.center {border: 1px;        
+        margin-left: auto;
+        margin-right: auto;}       
+        
+        
+#priceheader {text-align: center;
+            color: maroon;}           
+
+

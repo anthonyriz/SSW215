@@ -1,0 +1,25 @@
+<HTML>
+    <Head>
+        <title>
+            Problem 1
+        </title>
+    </Head>
+    <Body>
+        <h1>Problem 1</h1>
+        <h2 id="demo"></h2>
+        <script>
+            var x = prompt ("Enter an integer");
+            function num_type(x){
+                if (x % 2 == 0) {
+                    type = " Even"
+                }
+                else{
+                    type = "Odd"
+                }  
+                return type;
+            }
+document.getElementById("demo").innerHTML = "The integer is " + num_type(x);
+
+        </script>
+    </Body>
+</HTML>
